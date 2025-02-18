@@ -1,0 +1,39 @@
+# Ignore tất cả các file build, cache, và thư viện của Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Ignore các file của Visual Studio
+.vs/
+.vscode/
+*.sln
+*.csproj
+*.unityproj
+*.suo
+*.tmp
+*.user
+*.booproj
+*.svd
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Ignore các file debug
+.DS_Store
+Thumbs.db
+
+# Ignore các file của hệ điều hành
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Ignore các file của Git LFS
+*.apk
+*.aab
+*.unitypackage
