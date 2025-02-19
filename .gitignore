@@ -37,3 +37,8 @@ $RECYCLE.BIN/
 *.apk
 *.aab
 *.unitypackage
+echo "Library/" >> .gitignore
+echo "Temp/" >> .gitignore
+echo "Logs/" >> .gitignore
+echo "Packages/" >> .gitignore
+echo "Library/PackageCache/" >> .gitignore

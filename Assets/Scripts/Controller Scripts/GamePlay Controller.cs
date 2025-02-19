@@ -3,10 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class GamePlay : MonoBehaviour
 {
+    // Instance duy nhất của GamePlay để truy cập dễ dàng từ các script khác
     public static GamePlay instance;
 
     private void Awake()
     {
+        // Đảm bảo chỉ có một instance duy nhất của GamePlay
         MakeInstance();
         Time.timeScale = 1f; // Đảm bảo thời gian chạy bình thường khi vào scene
     }
@@ -19,12 +21,12 @@ public class GamePlay : MonoBehaviour
         }
         else if (instance != this)
         {
-            Destroy(gameObject); // Đảm bảo chỉ có một instance của GamePlay
+            Destroy(gameObject); // Hủy object nếu đã có instance khác tồn tại
         }
     }
 
     [SerializeField]
-    private GameObject pausePanel, gameOverPanel;
+    private GameObject pausePanel, gameOverPanel; // Bảng tạm dừng và bảng game over
 
     // Hiển thị bảng tạm dừng
     public void PauseGameButton()
