@@ -17,7 +17,7 @@
 - **Tương tác với vật phẩm**: Khi phi thuyền chạm vào các vật phẩm đặc biệt, chúng sẽ có hiệu ứng tương ứng.
 
 ### 🚀 3.2. Cơ Chế Game
-- **Thiên thạch xuất hiện ngẫu nhiên** và rơi từ trên xuống.
+- **Thiên thạch xuất hiện ngẫu nhiên** và rơi từ trên xuống, có kích thước và máu khác nhau.
 - **Thu thập sao** để tăng điểm.
 - **Túi cứu thương** giúp hồi máu.
 - **Túi đạn** giúp nâng cấp vũ khí thành laser mạnh hơn.
@@ -54,7 +54,7 @@
 - Cấu hình project theo template **2D**.
 
 ### 🏗️ 4.2. Xây Dựng Game
-- **Tạo các đối tượng game (Player, Asteroids, Stars, Items)**.
+- **Tạo các đối tượng game (Player, Asteroids, Star,HealthPickup,... )**.
 - **Viết script điều khiển phi thuyền (PlayerController.cs)**.
 - **Xử lý cơ chế bắn súng và va chạm**.
 - **Tạo hệ thống UI điểm số và máu**.
