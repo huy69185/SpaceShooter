@@ -9,18 +9,18 @@ using UnityEngine;
 public class AsteroidSpawnerManager : Singleton<AsteroidSpawnerManager>
 {
     [Header("References")]
-    [SerializeField] private List<Asteroid> _asteroidsList = new();
-    [SerializeField] private List<Asteroid> _miniAsteroidsList = new();
+    [SerializeField] private List<Asteroid> _asteroidsList = new();// Danh sách chứa các thiên thạch lớn
+    [SerializeField] private List<Asteroid> _miniAsteroidsList = new();// Danh sách chứa các thiên thạch nhỏ
 
     [Header("Values")]
-    [SerializeField] private float _waitTime;
-    [SerializeField] private float _minWaitTime;
-    [SerializeField] private float _waitTimePercentScale;
-    [SerializeField] private float _secondsBetweenScales;
-    [SerializeField] private float _minAsteroidSpeed;
-    [SerializeField] private float _maxAsteroidSpeed;
-    [SerializeField] private float _minMiniAsteroidSpeed;
-    [SerializeField] private float _maxMiniAsteroidSpeed;
+    [SerializeField] private float _waitTime;// Thời gian chờ giữa các lần spawn thiên thạch
+    [SerializeField] private float _minWaitTime;// Thời gian chờ tối thiểu giữa các lần spawn
+    [SerializeField] private float _waitTimePercentScale; // Tỷ lệ giảm thời gian chờ theo phần trăm (%)
+    [SerializeField] private float _secondsBetweenScales;// Khoảng thời gian giữa mỗi lần giảm thời gian chờ
+    [SerializeField] private float _minAsteroidSpeed;// Tốc độ nhỏ nhất của thiên thạch lớn
+    [SerializeField] private float _maxAsteroidSpeed;// Tốc độ lớn nhất của thiên thạch lớn
+    [SerializeField] private float _minMiniAsteroidSpeed;// Tốc độ nhỏ nhất của thiên thạch nhỏ
+    [SerializeField] private float _maxMiniAsteroidSpeed;// Tốc độ lớn nhất của thiên thạch nhỏ
 
     [HideInInspector] public List<GameObject> SpawnedAsteroids;
 
