@@ -17,12 +17,7 @@
 - **Tương tác với vật phẩm**: Khi phi thuyền chạm vào các vật phẩm đặc biệt, chúng sẽ có hiệu ứng tương ứng.
 
 ### 🚀 3.2. Cơ Chế Game
-- **Thiên thạch xuất hiện ngẫu nhiên** và rơi từ trên xuống, có kích thước và máu khác nhau.
-- **Thu thập sao** để tăng điểm.
-- **Túi cứu thương** giúp hồi máu.
-- **Túi đạn** giúp nâng cấp vũ khí thành laser mạnh hơn.
-- **Điểm cao nhất** sẽ hiển thị khi vào game.
-- **Mất máu khi va chạm thiên thạch**, hết 3 máu thì thua.
+- **Power shooting**: Di chuyển theo quán tính mô tả thực ngoài không gian.
 
 ### 💥 3.3. Xử Lý Va Chạm
 - **Sử dụng Collider2D** để kiểm tra va chạm giữa các vật thể.
